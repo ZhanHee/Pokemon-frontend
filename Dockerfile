@@ -1,5 +1,5 @@
 # Utilise l'image officielle Nginx comme base
-FROM nginx:latest
+FROM nginxinc/nginx-unprivileged
 
 # Copie des fichiers de configuration personnalisés (si nécessaire)
 # Par exemple, si vous avez un fichier nginx.conf local
